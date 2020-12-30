@@ -1,0 +1,4 @@
+convert hexadecimal to binary and submit in this format picoCTF{____}
+chr(0x41)
+output:A
+submit in flag format
