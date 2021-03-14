@@ -1,0 +1,6 @@
+we type http to filter out only the http net packets
+
+
+picoCTF{n0ts3cur3_894a6546}
+
+source 192.8.3.120
