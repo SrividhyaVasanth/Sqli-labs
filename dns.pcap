@@ -1,9 +1,0 @@
-Firstly, open the file with wireshark 
-type in dnsserver to filter out only the DNS networks
-after scrollling through them we get the flag in the source 198.168.2.12
-picoCT
-00e0   46 7b 77 34 6c 74 33 72 5f 77 68 31 74 33 5f 32  F{w4lt3r_wh1t3
-00f0   64 36 64 33 63 36 63 37 35 61 61 33 62 65 37 66   d6d3c6c75aa3be7f
-0100   34 32 64 65 62 65 64 38 61 64 31 36 65 33 62 7d   42debed8ad16e3b}
-
-flag is picoCTF{w4lt3r_wh1t3_2 d6d3c6c75aa3be7f42debed8ad16e3b}
