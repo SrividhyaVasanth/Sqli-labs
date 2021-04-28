@@ -1,0 +1,12 @@
+GET Double query injection[single quotes]
+an error is being displayed as we may not be getting the output of the "union" statement 
+In lesson 4 we used  error based double quotes injection attack and used ?id=1′ AND ‘2 OR ?id=3′ AND ‘4
+
+when we sued it the databse would provide different username adn passwords of the user.
+
+in lesson 5 we can use "union" to extract information from the database.
+
+?id=1'union select 5, version(),3 AND ‘1
+
+we can use different queries to extract certain informtion from the database.
+
