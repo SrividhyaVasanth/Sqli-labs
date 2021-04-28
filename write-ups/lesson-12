@@ -1,0 +1,9 @@
+POST ERROR-BASED DOUBLE QUOTES
+
+login with username & password as admin'
+LOgin Failed 
+
+
+login with username and password as admin" 
+it triggers an error 
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'admin'"") LIMIT 0,1' at line 1
