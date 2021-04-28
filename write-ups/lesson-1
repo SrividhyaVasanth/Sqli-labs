@@ -2,7 +2,7 @@ GET ERROR-BASED[single quotes]
 
 query used
 Select * from TABLE where id=1;
-
+we find that a single quote will break the query and also string input wil be showing an error. 
 
 
 
