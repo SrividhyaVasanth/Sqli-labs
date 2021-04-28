@@ -1,0 +1,13 @@
+GET [integer based]
+
+When we enter any random string we get an error from the database.
+after addinga  single quote we get the following error
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ‘\’ LIMIT 0,1′ at line 1
+
+
+query used is:
+Select * from TABLE where id = 1’ ;
+
+so odd number of single quotes is showing an error and also the string will break the query
+so we comment out the rest of the query --+
+
