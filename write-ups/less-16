@@ -1,0 +1,8 @@
+[COOKIE BASED INJECTIONS]
+cookie being generated is same for the user and doen't change
+the application is decoding the cookie and executing a query against the database
+we need to modify the cookie and enter the appropriate payload.
+error in mysql syntax occurs when cookie is changed to "admin\"
+to find number of columns -admin' order by 3
+{no error occurs as there are exactly 3 columns)
+
